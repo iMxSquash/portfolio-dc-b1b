@@ -25,7 +25,7 @@ pJett.addEventListener("click", () => {
         pPA.className = "inactive";
         pLogo.className = "inactive";
         pCartes.className = "inactive";
-        img.setAttribute("src", "/img/jett.webp");
+        img.setAttribute("src", "img/jett.webp");
         img.setAttribute("alt", "Illustration vectorielle du personnage 'Jett' de Valorant, réalisé en 2023, on y voit ce personnage aux cheveux blanc dans un fond sombre")
         figure.setAttribute("figcaption", "Illustration vectorielle du personnage 'Jett' de Valorant, réalisé en 2023, on y voit ce personnage aux cheveux blanc dans un fond sombre");
         txt.textContent = "Illustration vectorielle du personnage 'Jett' de Valorant, réalisé en 2023";
@@ -50,7 +50,7 @@ pPA.addEventListener("click", () => {
         pPA.className = "active";
         pLogo.className = "inactive";
         pCartes.className = "inactive";
-        img.setAttribute("src", "/img/luffypixel1.jpg");
+        img.setAttribute("src", "img/luffypixel1.jpg");
         img.setAttribute("alt", "Pixel art vectorielle de l'avis de recherche de Mugiwara no Luffy de One Piece, réalisé en 2023");
         figure.setAttribute("figcaption", "Pixel art vectorielle de l'avis de recherche de Mugiwara no Luffy de One Piece, réalisé en 2023")
         txt.textContent = "Pixel art vectorielle de l'avis de recherche de Mugiwara no Luffy de One Piece, réalisé en 2023";
@@ -76,7 +76,7 @@ pLogo.addEventListener("click", () => {
         pPA.className = "inactive";
         pLogo.className = "active";
         pCartes.className = "inactive";
-        img.setAttribute("src", "/img/logo-ec1.jpg");
+        img.setAttribute("src", "img/logo-ec1.jpg");
         img.setAttribute("alt", "Mockup de mon propre logo créer à partir de mes initiales E et C");
         figure.setAttribute("figcaption", "Mockup de mon propre logo créer à partir de mes initiales E et C");
         txt.textContent = "Mockup de mon propre logo créer à partir de mes initiales E et C";
@@ -101,7 +101,7 @@ pCartes.addEventListener("click", () => {
         pPA.className = "inactive";
         pLogo.className = "inactive";
         pCartes.className = "active";
-        img.setAttribute("src", "/img/cartes1.webp");
+        img.setAttribute("src", "img/cartes1.webp");
         img.setAttribute("alt", "Extention fictive du jeu de cartes Les Loups-garous de Thiercelieux, réalisé en 2023, on y voit plusieurs nouveaux roles tel que La mère des lous, le diable ou encore l'ivrogne");
         figure.setAttribute("figcaption", "Extention fictive du jeu de cartes Les Loups-garous de Thiercelieux, réalisé en 2023, on y voit plusieurs nouveaux roles tel que La mère des lous, le diable ou encore l'ivrogne");
         txt.textContent = "Extention fictive du jeu de cartes Les Loups-garous de Thiercelieux, réalisé en 2023";
@@ -125,7 +125,7 @@ pCartes.addEventListener("click", () => {
 c1.addEventListener("click", () => {
     if (pPA.classList.contains("active")) {
         if (c1.classList.contains("nonvisible")) {
-            img.setAttribute("src", "/img/luffypixel1.jpg");
+            img.setAttribute("src", "img/luffypixel1.jpg");
             img.setAttribute("alt", "Pixel art vectorielle de l'avis de recherche de Mugiwara no Luffy de One Piece, réalisé en 2023");
             figure.setAttribute("figcaption", "Pixel art vectorielle de l'avis de recherche de Mugiwara no Luffy de One Piece, réalisé en 2023")
             txt.textContent = "Pixel art vectorielle de l'avis de recherche de Mugiwara no Luffy de One Piece, réalisé en 2023";
@@ -139,7 +139,7 @@ c1.addEventListener("click", () => {
     }
     if (pLogo.classList.contains("active")) {
         if (c1.classList.contains("nonvisible")) {
-            img.setAttribute("src", "/img/logo-ec1.jpg");
+            img.setAttribute("src", "img/logo-ec1.jpg");
             img.setAttribute("alt", "Mockup de mon propre logo créer à partir de mes initiales E et C");
             figure.setAttribute("figcaption", "Mockup de mon propre logo créer à partir de mes initiales E et C")
             txt.textContent = "Mockup de mon propre logo créer à partir de mes initiales E et C";
@@ -153,7 +153,7 @@ c1.addEventListener("click", () => {
     }
     if (pCartes.classList.contains("active")) {
         if (c1.classList.contains("nonvisible")) {
-            img.setAttribute("src", "/img/cartes1.webp");
+            img.setAttribute("src", "img/cartes1.webp");
             img.setAttribute("alt", "Extention fictive du jeu de cartes Les Loups-garous de Thiercelieux, réalisé en 2023, on y voit plusieurs nouveaux roles tel que La mère des lous, le diable ou encore l'ivrogne");
             figure.setAttribute("figcaption", "Extention fictive du jeu de cartes Les Loups-garous de Thiercelieux, réalisé en 2023, on y voit plusieurs nouveaux roles tel que La mère des lous, le diable ou encore l'ivrogne")
             txt.textContent = "Extention fictive du jeu de cartes Les Loups-garous de Thiercelieux, réalisé en 2023";
@@ -173,7 +173,7 @@ c1.addEventListener("click", () => {
 c2.addEventListener("click", () => {
     if (pPA.classList.contains("active")) {
         if (c2.classList.contains("nonvisible")) {
-            img.setAttribute("src", "/img/luffypixel2.jpg");
+            img.setAttribute("src", "img/luffypixel2.jpg");
             img.setAttribute("alt", "Pixel art vectorielle de l'avis de recherche de Mugiwara no Luffy de One Piece, réalisé en 2023");
             figure.setAttribute("figcaption", "Pixel art vectorielle de l'avis de recherche de Mugiwara no Luffy de One Piece, réalisé en 2023")
             txt.textContent = "Pixel art vectorielle de l'avis de recherche de Mugiwara no Luffy de One Piece, réalisé en 2023";
@@ -188,7 +188,7 @@ c2.addEventListener("click", () => {
 
     if (pLogo.classList.contains("active")) {
         if (c2.classList.contains("nonvisible")) {
-            img.setAttribute("src", "/img/logo-ec-global.webp");
+            img.setAttribute("src", "img/logo-ec-global.webp");
             img.setAttribute("alt", "Divers objets et papèterie en ensemble avec mon logo, on y voit des lettres, cartes de visite, carnet, etc...");
             figure.setAttribute("figcaption", "Divers objets et papèterie en ensemble avec mon logo, on y voit des lettres, cartes de visite, carnet, etc...")
             txt.textContent = "Divers objets et papèterie en ensemble avec mon logo, réalisé en 2023";
@@ -202,7 +202,7 @@ c2.addEventListener("click", () => {
     }
     if (pCartes.classList.contains("active")) {
         if (c2.classList.contains("nonvisible")) {
-            img.setAttribute("src", "/img/cartes2.webp");
+            img.setAttribute("src", "img/cartes2.webp");
             img.setAttribute("alt", "Extention fictive du jeu de cartes Les Loups-garous de Thiercelieux, réalisé en 2023, on y voit plusieurs nouveaux roles tel que La mère des lous, le diable ou encore l'ivrogne");
             figure.setAttribute("figcaption", "Extention fictive du jeu de cartes Les Loups-garous de Thiercelieux, réalisé en 2023, on y voit plusieurs nouveaux roles tel que La mère des lous, le diable ou encore l'ivrogne")
             txt.textContent = "Extention fictive du jeu de cartes Les Loups-garous de Thiercelieux, réalisé en 2023";
@@ -223,7 +223,7 @@ c2.addEventListener("click", () => {
 c3.addEventListener("click", () => {
     if (pCartes.classList.contains("active")) {
         if (c3.classList.contains("nonvisible")) {
-            img.setAttribute("src", "/img/cartes3.webp");
+            img.setAttribute("src", "img/cartes3.webp");
             img.setAttribute("alt", "Illustrations de l'extention fictive du jeu de cartes Les Loups-garous de Thiercelieux, réalisé en 2023, on y voit celles des cartes : la mère des loup, le diable, evil cupidon, la voyante, la sorc!ère ainsi que l'ivrogne");
             figure.setAttribute("figcaption", "Illustrations de l'extention fictive du jeu de cartes Les Loups-garous de Thiercelieux, réalisé en 2023, on y voit celles des cartes : la mère des loup, le diable, evil cupidon, la voyante, la sorc!ère ainsi que l'ivrogne")
             txt.textContent = "Illustrations de l'extention fictive du jeu de cartes Les Loups-garous de Thiercelieux, réalisé en 2023";
@@ -268,7 +268,7 @@ pJett2.addEventListener("click", () => {
         pPA2.className = "inactive";
         pLogo2.className = "inactive";
         pCartes2.className = "inactive";
-        img2.setAttribute("src", "/img/jett.webp");
+        img2.setAttribute("src", "img/jett.webp");
         img2.setAttribute("alt", "Illustration vectorielle du personnage 'Jett' de Valorant, réalisé en 2023, on y voit ce personnage aux cheveux blanc dans un fond sombre")
         figure2.setAttribute("figcaption", "Illustration vectorielle du personnage 'Jett' de Valorant, réalisé en 2023, on y voit ce personnage aux cheveux blanc dans un fond sombre");
         txt2.textContent = "Illustration vectorielle du personnage 'Jett' de Valorant, réalisé en 2023";
@@ -293,7 +293,7 @@ pPA2.addEventListener("click", () => {
         pPA2.className = "active";
         pLogo2.className = "inactive";
         pCartes2.className = "inactive";
-        img2.setAttribute("src", "/img/luffypixel1.jpg");
+        img2.setAttribute("src", "img/luffypixel1.jpg");
         img2.setAttribute("alt", "Pixel art vectorielle de l'avis de recherche de Mugiwara no Luffy de One Piece, réalisé en 2023");
         figure2.setAttribute("figcaption", "Pixel art vectorielle de l'avis de recherche de Mugiwara no Luffy de One Piece, réalisé en 2023")
         txt2.textContent = "Pixel art vectorielle de l'avis de recherche de Mugiwara no Luffy de One Piece, réalisé en 2023";
@@ -319,7 +319,7 @@ pLogo2.addEventListener("click", () => {
         pPA2.className = "inactive";
         pLogo2.className = "active";
         pCartes2.className = "inactive";
-        img2.setAttribute("src", "/img/logo-ec1.jpg");
+        img2.setAttribute("src", "img/logo-ec1.jpg");
         img2.setAttribute("alt", "Mockup de mon propre logo créer à partir de mes initiales E et C");
         figure2.setAttribute("figcaption", "Mockup de mon propre logo créer à partir de mes initiales E et C");
         txt2.textContent = "Mockup de mon propre logo créer à partir de mes initiales E et C";
@@ -344,7 +344,7 @@ pCartes2.addEventListener("click", () => {
         pPA2.className = "inactive";
         pLogo2.className = "inactive";
         pCartes2.className = "active";
-        img2.setAttribute("src", "/img/cartes1.webp");
+        img2.setAttribute("src", "img/cartes1.webp");
         img2.setAttribute("alt", "Extention fictive du jeu de cartes Les Loups-garous de Thiercelieux, réalisé en 2023, on y voit plusieurs nouveaux roles tel que La mère des lous, le diable ou encore l'ivrogne");
         figure2.setAttribute("figcaption", "Extention fictive du jeu de cartes Les Loups-garous de Thiercelieux, réalisé en 2023, on y voit plusieurs nouveaux roles tel que La mère des lous, le diable ou encore l'ivrogne");
         txt2.textContent = "Extention fictive du jeu de cartes Les Loups-garous de Thiercelieux, réalisé en 2023";
@@ -368,7 +368,7 @@ pCartes2.addEventListener("click", () => {
 c12.addEventListener("click", () => {
     if (pPA2.classList.contains("active")) {
         if (c12.classList.contains("nonvisible")) {
-            img2.setAttribute("src", "/img/luffypixel1.jpg");
+            img2.setAttribute("src", "img/luffypixel1.jpg");
             img2.setAttribute("alt", "Pixel art vectorielle de l'avis de recherche de Mugiwara no Luffy de One Piece, réalisé en 2023");
             figure2.setAttribute("figcaption", "Pixel art vectorielle de l'avis de recherche de Mugiwara no Luffy de One Piece, réalisé en 2023")
             txt2.textContent = "Pixel art vectorielle de l'avis de recherche de Mugiwara no Luffy de One Piece, réalisé en 2023";
@@ -382,7 +382,7 @@ c12.addEventListener("click", () => {
     }
     if (pLogo2.classList.contains("active")) {
         if (c12.classList.contains("nonvisible")) {
-            img2.setAttribute("src", "/img/logo-ec1.jpg");
+            img2.setAttribute("src", "img/logo-ec1.jpg");
             img2.setAttribute("alt", "Mockup de mon propre logo créer à partir de mes initiales E et C");
             figure2.setAttribute("figcaption", "Mockup de mon propre logo créer à partir de mes initiales E et C")
             txt2.textContent = "Mockup de mon propre logo créer à partir de mes initiales E et C";
@@ -396,7 +396,7 @@ c12.addEventListener("click", () => {
     }
     if (pCartes2.classList.contains("active")) {
         if (c12.classList.contains("nonvisible")) {
-            img2.setAttribute("src", "/img/cartes1.webp");
+            img2.setAttribute("src", "img/cartes1.webp");
             img2.setAttribute("alt", "Extention fictive du jeu de cartes Les Loups-garous de Thiercelieux, réalisé en 2023, on y voit plusieurs nouveaux roles tel que La mère des lous, le diable ou encore l'ivrogne");
             figure2.setAttribute("figcaption", "Extention fictive du jeu de cartes Les Loups-garous de Thiercelieux, réalisé en 2023, on y voit plusieurs nouveaux roles tel que La mère des lous, le diable ou encore l'ivrogne")
             txt2.textContent = "Extention fictive du jeu de cartes Les Loups-garous de Thiercelieux, réalisé en 2023";
@@ -416,7 +416,7 @@ c12.addEventListener("click", () => {
 c22.addEventListener("click", () => {
     if (pPA2.classList.contains("active")) {
         if (c22.classList.contains("nonvisible")) {
-            img2.setAttribute("src", "/img/luffypixel2.jpg");
+            img2.setAttribute("src", "img/luffypixel2.jpg");
             img2.setAttribute("alt", "Pixel art vectorielle de l'avis de recherche de Mugiwara no Luffy de One Piece, réalisé en 2023");
             figure2.setAttribute("figcaption", "Pixel art vectorielle de l'avis de recherche de Mugiwara no Luffy de One Piece, réalisé en 2023")
             txt2.textContent = "Pixel art vectorielle de l'avis de recherche de Mugiwara no Luffy de One Piece, réalisé en 2023";
@@ -431,7 +431,7 @@ c22.addEventListener("click", () => {
 
     if (pLogo2.classList.contains("active")) {
         if (c22.classList.contains("nonvisible")) {
-            img2.setAttribute("src", "/img/logo-ec-global.webp");
+            img2.setAttribute("src", "img/logo-ec-global.webp");
             img2.setAttribute("alt", "Divers objets et papèterie en ensemble avec mon logo, on y voit des lettres, cartes de visite, carnet, etc...");
             figure2.setAttribute("figcaption", "Divers objets et papèterie en ensemble avec mon logo, on y voit des lettres, cartes de visite, carnet, etc...")
             txt2.textContent = "Divers objets et papèterie en ensemble avec mon logo, réalisé en 2023";
@@ -445,7 +445,7 @@ c22.addEventListener("click", () => {
     }
     if (pCartes2.classList.contains("active")) {
         if (c22.classList.contains("nonvisible")) {
-            img2.setAttribute("src", "/img/cartes2.webp");
+            img2.setAttribute("src", "img/cartes2.webp");
             img2.setAttribute("alt", "Extention fictive du jeu de cartes Les Loups-garous de Thiercelieux, réalisé en 2023, on y voit plusieurs nouveaux roles tel que La mère des lous, le diable ou encore l'ivrogne");
             figure2.setAttribute("figcaption", "Extention fictive du jeu de cartes Les Loups-garous de Thiercelieux, réalisé en 2023, on y voit plusieurs nouveaux roles tel que La mère des lous, le diable ou encore l'ivrogne")
             txt2.textContent = "Extention fictive du jeu de cartes Les Loups-garous de Thiercelieux, réalisé en 2023";
@@ -466,7 +466,7 @@ c22.addEventListener("click", () => {
 c32.addEventListener("click", () => {
     if (pCartes2.classList.contains("active")) {
         if (c32.classList.contains("nonvisible")) {
-            img2.setAttribute("src", "/img/cartes3.webp");
+            img2.setAttribute("src", "img/cartes3.webp");
             img2.setAttribute("alt", "Illustrations de l'extention fictive du jeu de cartes Les Loups-garous de Thiercelieux, réalisé en 2023, on y voit celles des cartes : la mère des loup, le diable, evil cupidon, la voyante, la sorc!ère ainsi que l'ivrogne");
             figure2.setAttribute("figcaption", "Illustrations de l'extention fictive du jeu de cartes Les Loups-garous de Thiercelieux, réalisé en 2023, on y voit celles des cartes : la mère des loup, le diable, evil cupidon, la voyante, la sorc!ère ainsi que l'ivrogne")
             txt2.textContent = "Illustrations de l'extention fictive du jeu de cartes Les Loups-garous de Thiercelieux, réalisé en 2023";
